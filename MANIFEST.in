@@ -3,9 +3,12 @@ include LICENSE
 include MANIFEST.in
 include README.rst
 include tox.ini
+include codecov.yml
+
 exclude .readthedocs.yaml
 
 recursive-include docs *
+recursive-include scripts *.sh
 prune docs/_build
 
 recursive-include tests *.py
