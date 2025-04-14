@@ -1,0 +1,3 @@
+before:
+  - echo "Running pre-hook script"
+  - ./scripts/script.sh
